@@ -1,0 +1,19 @@
+# Ignore bytecode
+__pycache__/
+
+# Ignore all .npy files
+*.npy
+*.png
+*.csv
+*.gzp
+*.log
+*.json
+*.gzip
+*.parquet
+*.npz
+# Ignore specific directories
+/.idea/
+/eeg-signal-quality-analysis-by-beacon-biosignals/train/
+/eeg-signal-quality-analysis-by-beacon-biosignals/test/
+/kaggle-env/
+.gitattributes
